@@ -16,15 +16,16 @@ patch:
     #candidate_list_layout: linear                  # 候选框样式，默认stacked，水平线型(linear)/垂直堆叠（stacked）
     #text_orientation: horizontal                   # 候选框文字方向，默认horizontal，横排自左至右(horizontal)/竖排自右至左(vertical)
 
-    candidate_format: "%c %@ "                     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+    # candidate_format: "%c  %@ "                     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
     corner_radius: 6                               # 窗口圆角
     hilited_corner_radius: 5                       # 高亮圆角
     line_spacing: 10                               # 行间距(适用于竖排)
     border_height: 1                               # 窗口上下高度
     border_width: 1                                # 窗口左右宽度
-    font_face: "PingFangSC"                        # 候选词字体
-    font_point: 16                                 # 候选字大小
-    label_font_point: 13                           # 候选编号大小
+    font_face: "SF Pro,HYTangMeiRen 45W"                        # 候选词字体
+    # font_face: "PingFangSC"                        # 候选词字体
+    font_point: 17                                 # 候选字大小
+    label_font_point: 15                           # 候选编号大小
 
 # 皮肤主题，颜色参数均使用(#aabbggrr)
   preset_color_schemes:

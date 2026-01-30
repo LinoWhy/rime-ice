@@ -5,3 +5,8 @@ patch:
     caption: 「方案选单」
     hotkeys:
       - F4
+  key_binder/bindings/+:
+    - { when: has_menu, accept: "Control+h", send: Left }
+    - { when: has_menu, accept: "Control+j", send: Down }
+    - { when: has_menu, accept: "Control+k", send: Up }
+    - { when: has_menu, accept: "Control+l", send: Right }
