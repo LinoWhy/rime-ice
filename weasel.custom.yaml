@@ -10,8 +10,8 @@ patch:
     line_spacing: 10                               # 行间距(适用于竖排)
     border_height: 1                               # 窗口上下高度
     border_width: 1                                # 窗口左右宽度
-    font_point: 13                                 # 候选字大小
-    label_font_point: 10                           # 候选编号大小
+    font_point: 15                                 # 候选字大小
+    label_font_point: 12                           # 候选编号大小
   preset_color_schemes:
     catppuccin_latte:
       name: Catppuccin Latte
